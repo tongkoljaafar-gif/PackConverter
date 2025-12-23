@@ -1539,7 +1539,10 @@
         "cyan_dye": "dye_powder_cyan_new",
         "cyan_harness": "harness/harness_cyan",
         "dandelion_yellow": "dye_powder_yellow",
-        "dark_oak_boat": "boat_dark_oak",
+        "dark_oak_boat": [
+            "boat_dark_oak",
+            "boat_darkoak"
+        ],
         "dark_oak_chest_boat": "dark_oak_chest_boat",
         "dark_oak_door": "door_dark_oak",
         "dark_oak_sign": "sign_darkoak",
@@ -1857,6 +1860,7 @@
         "slime_ball": "slimeball",
         "slime_spawn_egg": "spawn_eggs/spawn_egg_slime",
         "sniffer_spawn_egg": "spawn_eggs/spawn_egg_sniffer",
+        "snout_armor_trim_smithing_template": "snout_armor_trim_smithing_template",
         "snow_golem_spawn_egg": "spawn_eggs/spawn_egg_snow_golem",
         "snowball": "snowball",
         "soul_campfire": "soul_campfire",
@@ -1919,6 +1923,7 @@
         "witch_spawn_egg": "spawn_eggs/spawn_egg_witch",
         "wither_skeleton_spawn_egg": "spawn_eggs/spawn_egg_wither_skeleton",
         "wither_spawn_egg": "spawn_eggs/spawn_egg_wither",
+        "wolf_armor_overlay": "wolf_armor_dyed",
         "wolf_spawn_egg": "spawn_eggs/spawn_egg_wolf",
         "wooden_axe": "wood_axe",
         "wooden_hoe": "wood_hoe",
@@ -1941,6 +1946,7 @@
         "zombie_villager_spawn_egg": "spawn_eggs/spawn_egg_zombie_villager",
         "zombified_piglin_spawn_egg": "spawn_eggs/spawn_egg_zombified_piglin"
     },
+    "item/barrier": "block/barrier",
     "item/copper_spear_in_hand": "entity/spear/copper_spear",
     "item/diamond_spear_in_hand": "entity/spear/diamond_spear",
     "item/golden_spear_in_hand": "entity/spear/gold_spear",
