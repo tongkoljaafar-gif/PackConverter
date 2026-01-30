@@ -135,7 +135,10 @@
         "carrots_stage0": "carrots_stage_0",
         "carrots_stage1": "carrots_stage_1",
         "carrots_stage2": "carrots_stage_2",
-        "carrots_stage3": "carrots_stage_3",
+        "carrots_stage3": [
+            "carrots_stage3",
+            "carrots_stage_3"
+        ],
         "cartography_table_side1": "cartography_table_side1",
         "cartography_table_side2": "cartography_table_side2",
         "cartography_table_side3": "cartography_table_side3",
@@ -389,7 +392,6 @@
         "grindstone_pivot": "grindstone_pivot",
         "grindstone_round": "grindstone_round",
         "grindstone_side": "grindstone_side",
-        "hanging_roots": "hanging_roots",
         "hay_block_side": "hay_block_side",
         "hay_block_top": "hay_block_top",
         "honey_block_bottom": "honey_bottom",
@@ -448,7 +450,6 @@
         "lectern_front": "lectern_front",
         "lectern_sides": "lectern_sides",
         "lectern_top": "lectern_top",
-        "lever": "lever",
         "light_blue_candle": "candles/light_blue_candle",
         "light_blue_candle_lit": "candles/light_blue_candle_lit",
         "light_blue_concrete": "concrete_light_blue",
@@ -575,6 +576,7 @@
         "packed_mud": "packed_mud",
         "pale_hanging_moss": "pale_hanging_moss_middle",
         "pale_moss_block": "pale_moss",
+        "pale_moss_carpet": "pale_moss_block",
         "pale_moss_carpet_side_small": "pale_moss_carpet_side_tip",
         "pale_moss_carpet_side_tall": "pale_moss_carpet_side_base",
         "pale_oak_log": "pale_oak_log_side",
@@ -603,7 +605,6 @@
         "pointed_dripstone_down_base": "pointed_dripstone_down_base",
         "pointed_dripstone_down_frustum": "pointed_dripstone_down_frustum",
         "pointed_dripstone_down_middle": "pointed_dripstone_down_middle",
-        "pointed_dripstone_down_tip": "pointed_dripstone_down_tip",
         "pointed_dripstone_down_tip_merge": "pointed_dripstone_down_merge",
         "pointed_dripstone_up_base": "pointed_dripstone_up_base",
         "pointed_dripstone_up_frustum": "pointed_dripstone_up_frustum",
@@ -912,6 +913,10 @@
     "block/destroy_stage_7": "environment/destroy_stage_7",
     "block/destroy_stage_8": "environment/destroy_stage_8",
     "block/destroy_stage_9": "environment/destroy_stage_9",
+    "block/lever": [
+        "block/lever",
+        "item/lever"
+    ],
     "colormap": {
         "dry_foliage": "dry_foliage",
         "foliage": "foliage",
@@ -921,7 +926,7 @@
         "allay": {
             "allay": "allay"
         },
-        "armorstand/wood": "armor_stand",
+        "armorstand/armorstand": "armor_stand",
         "axolotl": {
             "axolotl_blue": "axolotl_blue",
             "axolotl_cyan": "axolotl_cyan",
@@ -971,7 +976,6 @@
             "triangles_bottom": "banner_triangles_bottom",
             "triangles_top": "banner_triangles_top"
         },
-        "banner_base": "banner/banner_base",
         "bat": "bat_v2",
         "bear/polarbear": "polarbear",
         "bed": {
@@ -1014,8 +1018,34 @@
             "spruce": "boat_spruce"
         },
         "cat": {
-            "all_black": "allblackcat",
-            "british_shorthair": "britishshorthair"
+            "cat_all_black": "allblackcat",
+            "cat_all_black_baby": "allblackcat_baby",
+            "cat_black": [
+                "blackcat",
+                "tuxedo"
+            ],
+            "cat_black_baby": "tuxedo_baby",
+            "cat_british_shorthair": "britishshorthair",
+            "cat_british_shorthair_baby": "britishshorthair_baby",
+            "cat_calico": "calico",
+            "cat_calico_baby": "calico_baby",
+            "cat_jellie": "jellie",
+            "cat_jellie_baby": "jellie_baby",
+            "cat_persian": "persian",
+            "cat_persian_baby": "persian_baby",
+            "cat_ragdoll": "ragdoll",
+            "cat_ragdoll_baby": "ragdoll_baby",
+            "cat_red": [
+                "red",
+                "redtabby"
+            ],
+            "cat_red_baby": "redtabby_baby",
+            "cat_siamese": "siamesecat",
+            "cat_siamese_baby": "siamese_baby",
+            "cat_tabby": "tabby",
+            "cat_tabby_baby": "tabby_baby",
+            "cat_white": "white",
+            "cat_white_baby": "white_baby"
         },
         "chest_boat/acacia": "boat/chest_boat_acacia",
         "chest_boat/bamboo": "boat/chest_boat_bamboo",
@@ -1028,26 +1058,16 @@
         "chest_boat/pale_oak": "boat/chest_boat_pale_oak",
         "chest_boat/spruce": "boat/chest_boat_spruce",
         "chicken": {
-            "cold_chicken": "chicken_cold",
-            "temperate_chicken": "chicken",
-            "warm_chicken": "chicken_warm"
+            "chicken_temperate": "chicken"
         },
         "copper_golem": {
             "copper_golem": "copper_golem",
-            "copper_golem_eyes": "copper_golem_eyes",
-            "exposed_copper_golem": "copper_golem_exposed",
-            "exposed_copper_golem_eyes": "copper_golem_eyes_exposed",
-            "oxidized_copper_golem": "copper_golem_oxidized",
-            "oxidized_copper_golem_eyes": "copper_golem_eyes_oxidized",
-            "weathered_copper_golem": "copper_golem_weathered",
-            "weathered_copper_golem_eyes": "copper_golem_eyes_weathered"
+            "copper_golem_eyes": "copper_golem_eyes"
         },
         "cow": {
-            "brown_mooshroom": "brown_mooshroom_v2",
-            "cold_cow": "cow_cold",
-            "red_mooshroom": "mooshroom_v2",
-            "temperate_cow": "cow_v2",
-            "warm_cow": "cow_warm"
+            "cow_temperate": "cow_v2",
+            "mooshroom_brown": "brown_mooshroom_v2",
+            "mooshroom_red": "mooshroom_v2"
         },
         "creeper/creeper": [
             "creeper/creeper",
@@ -1055,6 +1075,7 @@
         ],
         "end_crystal/end_crystal": "endercrystal/endercrystal",
         "end_crystal/end_crystal_beam": "endercrystal/endercrystal_beam",
+        "enderdragon/dragon_eyes": "dragon/dragon_eyes",
         "equipment/happy_ghast_body/black_harness": "harness/harness_black",
         "equipment/happy_ghast_body/blue_harness": "harness/harness_blue",
         "equipment/happy_ghast_body/brown_harness": "harness/harness_brown",
@@ -1075,6 +1096,24 @@
         "equipment/horse_body/diamond": "horse2/armor/horse_armor_diamond",
         "equipment/horse_body/gold": "horse2/armor/horse_armor_gold",
         "equipment/horse_body/iron": "horse2/armor/horse_armor_iron",
+        "equipment/horse_body/netherite": "horse2/armor/horse_armor_netherite",
+        "equipment/llama_body/black": "llama/decor/decor_black",
+        "equipment/llama_body/blue": "llama/decor/decor_blue",
+        "equipment/llama_body/brown": "llama/decor/decor_brown",
+        "equipment/llama_body/cyan": "llama/decor/decor_cyan",
+        "equipment/llama_body/gray": "llama/decor/decor_gray",
+        "equipment/llama_body/green": "llama/decor/decor_green",
+        "equipment/llama_body/light_blue": "llama/decor/decor_light_blue",
+        "equipment/llama_body/light_gray": "llama/decor/decor_silver",
+        "equipment/llama_body/lime": "llama/decor/decor_lime",
+        "equipment/llama_body/magenta": "llama/decor/decor_magenta",
+        "equipment/llama_body/orange": "llama/decor/decor_orange",
+        "equipment/llama_body/pink": "llama/decor/decor_pink",
+        "equipment/llama_body/purple": "llama/decor/decor_purple",
+        "equipment/llama_body/red": "llama/decor/decor_red",
+        "equipment/llama_body/trader_llama": "llama/decor/trader_llama_decor",
+        "equipment/llama_body/white": "llama/decor/decor_white",
+        "equipment/llama_body/yellow": "llama/decor/decor_yellow",
         "equipment/nautilus_body/copper": "nautilus/armor/nautilus_armor_copper",
         "equipment/nautilus_body/diamond": "nautilus/armor/nautilus_armor_diamond",
         "equipment/nautilus_body/gold": "nautilus/armor/nautilus_armor_gold",
@@ -1088,6 +1127,25 @@
             "goat": "goat"
         },
         "hoglin/zoglin": "zoglin/zoglin",
+        "horse/donkey_baby": "horse2/donkey_baby",
+        "horse/horse_black_baby": "horse2/horse_black_baby",
+        "horse/horse_brown_baby": "horse2/horse_brown_baby",
+        "horse/horse_chestnut_baby": "horse2/horse_chestnut_baby",
+        "horse/horse_creamy_baby": "horse2/horse_creamy_baby",
+        "horse/horse_darkbrown_baby": "horse2/horse_darkbrown_baby",
+        "horse/horse_gray_baby": "horse2/horse_gray_baby",
+        "horse/horse_markings_blackdots": "horse2/horse_markings_blackdots",
+        "horse/horse_markings_blackdots_baby": "horse2/baby_horse_markings_blackdots",
+        "horse/horse_markings_white": "horse2/horse_markings_white",
+        "horse/horse_markings_white_baby": "horse2/baby_horse_markings_white",
+        "horse/horse_markings_whitedots": "horse2/horse_markings_whitedots",
+        "horse/horse_markings_whitedots_baby": "horse2/baby_horse_markings_whitedots",
+        "horse/horse_markings_whitefield": "horse2/horse_markings_whitefield",
+        "horse/horse_markings_whitefield_baby": "horse2/baby_horse_markings_whitefield",
+        "horse/horse_skeleton_baby": "horse2/horse_skeleton_baby",
+        "horse/horse_white_baby": "horse2/horse_white_baby",
+        "horse/horse_zombie_baby": "horse2/horse_zombie_baby",
+        "horse/mule_baby": "horse2/mule_baby",
         "illager": {
             "evoker_fangs": "fangs"
         },
@@ -1101,24 +1159,14 @@
             "iron_golem_crackiness_medium": "cracked_medium"
         },
         "llama": {
-            "brown": "llama_brown",
-            "creamy": "llama_creamy",
-            "gray": "llama_gray",
-            "white": "llama_white"
+            "llama_creamy": "llama"
         },
         "panda": {
-            "aggressive_panda": "panda_aggressive",
-            "brown_panda": "panda_brown",
-            "lazy_panda": "panda_lazy",
             "panda": "panda",
-            "playful_panda": "panda_playful",
-            "weak_panda": "panda_sneezy",
-            "worried_panda": "panda_worried"
+            "panda_weak": "panda_sneezy"
         },
         "pig": {
-            "cold_pig": "pig_cold",
-            "temperate_pig": "pig_v3",
-            "warm_pig": "pig_warm"
+            "pig_temperate": "pig_v3"
         },
         "piglin": {
             "zombified_piglin": "zombie_piglin"
@@ -1126,9 +1174,6 @@
         "player/slim/alex": "alex",
         "player/wide/steve": "steve",
         "projectiles/wind_charge": "wind_charge",
-        "rabbit": {
-            "black": "blackrabbit"
-        },
         "shield/base": "shield_patterns/base",
         "shield/border": "shield_patterns/border",
         "shield/bricks": "shield_patterns/bricks",
@@ -1172,7 +1217,6 @@
         "shield/triangle_top": "shield_patterns/triangle_top",
         "shield/triangles_bottom": "shield_patterns/triangles_bottom",
         "shield/triangles_top": "shield_patterns/triangles_top",
-        "shield_base_nopattern": "shield",
         "shulker": {
             "shulker": "shulker_undyed",
             "spark": "spark"
@@ -1213,12 +1257,19 @@
             "skulls/wither_skeleton",
             "skeleton/wither_skeleton"
         ],
+        "slime": {
+            "magmacube": "magmacube_v2"
+        },
+        "squid/glow_squid_baby": "glow_squid/glow_squid_baby",
         "squid/squid": "squid",
         "strider": {
             "strider": "strider",
             "strider_cold": "strider_suffocated"
         },
-        "turtle/big_sea_turtle": "sea_turtle",
+        "turtle/turtle": "sea_turtle",
+        "turtle": {
+            "turtle_baby": "sea_turtle_baby"
+        },
         "villager/profession/armorer": "villager2/professions/armorer",
         "villager/profession/butcher": "villager2/professions/butcher",
         "villager/profession/cartographer": "villager2/professions/cartographer",
@@ -1316,9 +1367,14 @@
     "entity/equipment/humanoid_leggings/netherite": "models/armor/netherite_2",
     "entity/equipment/wings/elytra": "models/armor/elytra",
     "entity/illager/illusioner": "geyser/entity/illager/illusioner",
-    "entity/projectiles/spectral_arrow": "geyser/entity/arrow/spectral_arrow",
-    "entity/rabbit/caerbannog": "geyser/entity/rabbit/caerbannog",
+    "entity/projectiles/arrow_spectral": "geyser/entity/arrow/spectral_arrow",
+    "entity/rabbit/rabbit_caerbannog": "geyser/entity/rabbit/caerbannog",
+    "entity/rabbit/rabbit_caerbannog_baby": "geyser/entity/rabbit/caerbannog_baby",
     "environment": {
+        "celestial/sun": [
+            "sun",
+            "sun_vv"
+        ],
         "clouds": "clouds"
     },
     "gui": {
@@ -1343,6 +1399,7 @@
         "sprites/hud/armor_empty": "armor_empty",
         "sprites/hud/armor_full": "armor_full",
         "sprites/hud/armor_half": "armor_half",
+        "sprites/hud/crosshair": "cross_hair",
         "sprites/hud/effect_background": "hud_mob_effect_background",
         "sprites/hud/experience_bar_background": "experiencebarempty",
         "sprites/hud/experience_bar_progress": "experiencebarfull",
@@ -1395,6 +1452,11 @@
         "sprites/hud/jump_bar_background": "horse_jump_empty",
         "sprites/hud/jump_bar_cooldown": "dash_cooldown",
         "sprites/hud/jump_bar_progress": "horse_jump_full",
+        "sprites/hud/locator_bar_background": "locator_bg",
+        "sprites/recipe_book/filter_disabled": "craft_toggle_off",
+        "sprites/recipe_book/filter_disabled_highlighted": "craft_toggle_off_hover",
+        "sprites/recipe_book/filter_enabled": "craft_toggle_on",
+        "sprites/recipe_book/filter_enabled_highlighted": "craft_toggle_on_hover",
         "title/background/panorama_0": "panorama_0",
         "title/background/panorama_1": "panorama_1",
         "title/background/panorama_2": "panorama_2",
@@ -1403,7 +1465,6 @@
         "title/background/panorama_5": "panorama_5",
         "title/background/panorama_overlay": "panorama_overlay"
     },
-    "gui/sprites/hud/locator_bar_background": "ui/locator_bg",
     "item": {
         "acacia_boat": "boat_acacia",
         "acacia_chest_boat": "acacia_chest_boat",
@@ -1934,7 +1995,12 @@
     "item/golden_spear_in_hand": "entity/spear/gold_spear",
     "item/iron_spear_in_hand": "entity/spear/iron_spear",
     "item/netherite_spear_in_hand": "entity/spear/netherite_spear",
+    "item/seagrass": "block/seagrass_carried",
     "item/stone_spear_in_hand": "entity/spear/stone_spear",
+    "item/structure_void": [
+        "block/structure_air",
+        "block/structure_void"
+    ],
     "item/wooden_spear_in_hand": "entity/spear/wood_spear",
     "map": {
         "decorations/desert_village": "village_desert",
@@ -1947,43 +2013,44 @@
         "decorations/trial_chambers": "trial_chambers",
         "map_background": "map_background"
     },
-    "misc/powder_snow_outline": "ui/frozen_effect",
+    "misc/powder_snow_outline": "gui/frozen_effect",
     "misc": {
         "pumpkinblur": "pumpkinblur"
     },
-    "misc/spyglass_scope": "ui/spyglass_scope",
-    "mob_effect/absorption": "ui/absorption_effect",
-    "mob_effect/bad_omen": "ui/bad_omen_effect",
-    "mob_effect/blindness": "ui/blindness_effect",
+    "misc/spyglass_scope": "gui/spyglass_scope",
+    "mob_effect/absorption": "gui/absorption_effect",
+    "mob_effect/bad_omen": "gui/bad_omen_effect",
+    "mob_effect/blindness": "gui/blindness_effect",
     "mob_effect/breath_of_the_nautilus": "gui/breath_of_the_nautilus_effect",
-    "mob_effect/conduit_power": "ui/conduit_power_effect",
-    "mob_effect/darkness": "ui/darkness_effect",
-    "mob_effect/fire_resistance": "ui/fire_resistance_effect",
-    "mob_effect/haste": "ui/haste_effect",
-    "mob_effect/health_boost": "ui/health_boost_effect",
-    "mob_effect/hunger": "ui/hunger_effect",
-    "mob_effect/infested": "ui/infested_effect",
-    "mob_effect/invisibility": "ui/invisibility_effect",
-    "mob_effect/jump_boost": "ui/jump_boost_effect",
-    "mob_effect/levitation": "ui/levitation_effect",
-    "mob_effect/mining_fatigue": "ui/mining_fatigue_effect",
-    "mob_effect/nausea": "ui/nausea_effect",
-    "mob_effect/night_vision": "ui/night_vision_effect",
-    "mob_effect/oozing": "ui/oozing_effect",
-    "mob_effect/poison": "ui/poison_effect",
-    "mob_effect/raid_omen": "ui/raid_omen_effect",
-    "mob_effect/regeneration": "ui/regeneration_effect",
-    "mob_effect/resistance": "ui/resistance_effect",
-    "mob_effect/slow_falling": "ui/slow_falling_effect",
-    "mob_effect/slowness": "ui/slowness_effect",
-    "mob_effect/speed": "ui/speed_effect",
-    "mob_effect/strength": "ui/strength_effect",
-    "mob_effect/trial_omen": "ui/trial_omen_effect",
-    "mob_effect/water_breathing": "ui/water_breathing_effect",
-    "mob_effect/weakness": "ui/weakness_effect",
-    "mob_effect/weaving": "ui/weaving_effect",
-    "mob_effect/wind_charged": "ui/wind_charged_effect",
-    "mob_effect/wither": "ui/wither_effect",
+    "mob_effect/conduit_power": "gui/conduit_power_effect",
+    "mob_effect/darkness": "gui/darkness_effect",
+    "mob_effect/fire_resistance": "gui/fire_resistance_effect",
+    "mob_effect/haste": "gui/haste_effect",
+    "mob_effect/health_boost": "gui/health_boost_effect",
+    "mob_effect/hero_of_the_village": "gui/village_hero_effect",
+    "mob_effect/hunger": "gui/hunger_effect",
+    "mob_effect/infested": "gui/infested_effect",
+    "mob_effect/invisibility": "gui/invisibility_effect",
+    "mob_effect/jump_boost": "gui/jump_boost_effect",
+    "mob_effect/levitation": "gui/levitation_effect",
+    "mob_effect/mining_fatigue": "gui/mining_fatigue_effect",
+    "mob_effect/nausea": "gui/nausea_effect",
+    "mob_effect/night_vision": "gui/night_vision_effect",
+    "mob_effect/oozing": "gui/oozing_effect",
+    "mob_effect/poison": "gui/poison_effect",
+    "mob_effect/raid_omen": "gui/raid_omen_effect",
+    "mob_effect/regeneration": "gui/regeneration_effect",
+    "mob_effect/resistance": "gui/resistance_effect",
+    "mob_effect/slow_falling": "gui/slow_falling_effect",
+    "mob_effect/slowness": "gui/slowness_effect",
+    "mob_effect/speed": "gui/speed_effect",
+    "mob_effect/strength": "gui/strength_effect",
+    "mob_effect/trial_omen": "gui/trial_omen_effect",
+    "mob_effect/water_breathing": "gui/water_breathing_effect",
+    "mob_effect/weakness": "gui/weakness_effect",
+    "mob_effect/weaving": "gui/weaving_effect",
+    "mob_effect/wind_charged": "gui/wind_charged_effect",
+    "mob_effect/wither": "gui/wither_effect",
     "painting": {
         "backyard": "backyard",
         "baroque": "baroque",

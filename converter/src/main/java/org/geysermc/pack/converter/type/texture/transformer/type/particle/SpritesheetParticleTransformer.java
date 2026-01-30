@@ -41,7 +41,7 @@ import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.util.BitSet;
 
-public class SpritesheetParticleTransformer implements TextureTransformer {
+public abstract class SpritesheetParticleTransformer implements TextureTransformer {
     private final String javaPath;
     private final String bedrockPath;
     private final String vanillaSpritesheet;

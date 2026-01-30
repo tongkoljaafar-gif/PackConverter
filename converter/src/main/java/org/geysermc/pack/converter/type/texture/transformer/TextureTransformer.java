@@ -28,6 +28,7 @@ package org.geysermc.pack.converter.type.texture.transformer;
 
 import net.kyori.adventure.key.Key;
 import org.geysermc.pack.converter.util.ImageUtil;
+import org.geysermc.pack.converter.util.KeyUtil;
 import org.jetbrains.annotations.NotNull;
 import team.unnamed.creative.texture.Texture;
 
@@ -58,6 +59,10 @@ public interface TextureTransformer {
         return ORDER_NORMAL;
     }
 
+    default void gridTransform(@NotNull TransformContext context, boolean poll, int rows, int columns, String bedrockOutput, String... javaInputs) throws IOException {
+        gridTransform(context, poll, rows, columns, KeyUtil.key(Key.MINECRAFT_NAMESPACE, bedrockOutput), Arrays.stream(javaInputs).map(str -> KeyUtil.key(Key.MINECRAFT_NAMESPACE, str)).toArray(Key[]::new));
+    }
+
     // Adds images in rows and columns
     default void gridTransform(@NotNull TransformContext context, boolean poll, int rows, int columns, Key bedrockOutput, Key... javaInputs) throws IOException {
         if (rows * columns != javaInputs.length) {
@@ -67,6 +72,7 @@ public interface TextureTransformer {
         boolean exists = false;
 
         for (Key javaInput : javaInputs) {
+            if (javaInput == null) continue;
             if (context.isTexturePresent(javaInput)) {
                 exists = true;
                 break;

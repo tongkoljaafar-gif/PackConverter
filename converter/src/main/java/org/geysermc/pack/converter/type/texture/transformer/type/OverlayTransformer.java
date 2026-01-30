@@ -45,18 +45,32 @@ public class OverlayTransformer implements TextureTransformer {
     // This is used in VanillaPackProvider in order to get textures if one is missing out of the two
     public static final List<OverlayData> OVERLAYS = List.of(
             // Cat
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/all_black.png", "entity/cat/allblackcat_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/british_shorthair.png", "entity/cat/britishshorthair_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/calico.png", "entity/cat/calico_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/jellie.png", "entity/cat/jellie_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_all_black.png", "entity/cat/allblackcat_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_black.png", "entity/cat/tuxedo_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_british_shorthair.png", "entity/cat/britishshorthair_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_calico.png", "entity/cat/calico_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_jellie.png", "entity/cat/jellie_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_persian.png", "entity/cat/persian_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_ragdoll.png", "entity/cat/ragdoll_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_red.png", "entity/cat/redtabby_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_siamese.png", "entity/cat/siamesecat_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_tabby.png", "entity/cat/tabby_tame.png", true, true),
+            new OverlayData("entity/cat/cat_collar.png", "entity/cat/cat_white.png", "entity/cat/white_tame.png", true, true),
             new OverlayData("entity/cat/cat_collar.png", "entity/cat/ocelot.png", "entity/cat/ocelot_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/persian.png", "entity/cat/persian_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/ragdoll.png", "entity/cat/ragdoll_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/red.png", "entity/cat/redtabby_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/siamese.png", "entity/cat/siamesecat_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/tabby.png", "entity/cat/tabby_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/black.png", "entity/cat/tuxedo_tame.png", true, true),
-            new OverlayData("entity/cat/cat_collar.png", "entity/cat/white.png", "entity/cat/white_tame.png", true, true),
+
+            // Baby Cat
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_all_black_baby.png", "entity/cat/allblackcat_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_black_baby.png", "entity/cat/tuxedo_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_british_shorthair_baby.png", "entity/cat/britishshorthair_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_calico_baby.png", "entity/cat/calico_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_jellie_baby.png", "entity/cat/jellie_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_persian_baby.png", "entity/cat/persian_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_ragdoll_baby.png", "entity/cat/ragdoll_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_red_baby.png", "entity/cat/redtabby_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_siamese_baby.png", "entity/cat/siamesecat_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_tabby_baby.png", "entity/cat/tabby_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/cat_white_baby.png", "entity/cat/white_tame_baby.png", true, true),
+            new OverlayData("entity/cat/cat_collar_baby.png", "entity/cat/ocelot_baby.png", "entity/cat/ocelot_tame_baby.png", true, true),
 
             // Enderman
             new OverlayData("entity/enderman/enderman.png", "entity/enderman/enderman_eyes.png", "entity/enderman/enderman.png", false),
@@ -74,6 +88,7 @@ public class OverlayTransformer implements TextureTransformer {
             new OverlayData("item/leather_leggings.png", "item/leather_leggings_overlay.png", "items/leather_leggings.png"),
             new OverlayData("entity/equipment/humanoid/leather.png", "entity/equipment/humanoid/leather_overlay.png", "models/armor/leather_1.png"),
             new OverlayData("entity/equipment/humanoid_leggings/leather.png", "entity/equipment/humanoid_leggings/leather_overlay.png", "models/armor/leather_2.png"),
+            new OverlayData("entity/equipment/horse_body/leather.png", "entity/equipment/horse_body/leather_overlay.png", "entity/horse2/armor/horse_armor_leather.png"),
 
             // Phantom
             new OverlayData("entity/phantom.png", "entity/phantom_eyes.png", "entity/phantom.png", false),
@@ -91,7 +106,18 @@ public class OverlayTransformer implements TextureTransformer {
             new OverlayData("entity/wolf/wolf_collar.png", "entity/wolf/wolf_snowy_tame.png", "entity/wolf/wolf_snowy_tame.png", true, true),
             new OverlayData("entity/wolf/wolf_collar.png", "entity/wolf/wolf_spotted_tame.png", "entity/wolf/wolf_spotted_tame.png", true, true),
             new OverlayData("entity/wolf/wolf_collar.png", "entity/wolf/wolf_striped_tame.png", "entity/wolf/wolf_striped_tame.png", true, true),
-            new OverlayData("entity/wolf/wolf_collar.png", "entity/wolf/wolf_woods_tame.png", "entity/wolf/wolf_woods_tame.png", true, true)
+            new OverlayData("entity/wolf/wolf_collar.png", "entity/wolf/wolf_woods_tame.png", "entity/wolf/wolf_woods_tame.png", true, true),
+
+            // Baby Wolf
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_tame_baby.png", "entity/wolf/wolf_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_ashen_tame_baby.png", "entity/wolf/wolf_ashen_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_black_tame_baby.png", "entity/wolf/wolf_black_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_chestnut_tame_baby.png", "entity/wolf/wolf_chestnut_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_rusty_tame_baby.png", "entity/wolf/wolf_rusty_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_snowy_tame_baby.png", "entity/wolf/wolf_snowy_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_spotted_tame_baby.png", "entity/wolf/wolf_spotted_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_striped_tame_baby.png", "entity/wolf/wolf_striped_tame_baby.png", true, true),
+            new OverlayData("entity/wolf/wolf_collar_baby.png", "entity/wolf/wolf_woods_tame_baby.png", "entity/wolf/wolf_woods_tame_baby.png", true, true)
     );
     
     @Override
