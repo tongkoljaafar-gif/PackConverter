@@ -229,12 +229,6 @@ java:
         - block/trial_spawner_top_inactive_ominous
         - block/warped_shelf
         - block/tuff_bricks
-        - entity/cat/white
-        - entity/cat/persian
-        - entity/cat/tabby
-        - entity/cat/ragdoll
-        - entity/cat/jellie
-        - entity/cat/calico
         - entity/fish/cod
         - entity/fish/pufferfish
         - entity/fish/salmon
@@ -252,36 +246,16 @@ java:
         - entity/fish/tropical_b_pattern_4
         - entity/fish/tropical_b_pattern_5
         - entity/fish/tropical_b_pattern_6
-        - entity/frog/cold_frog
-        - entity/frog/temperate_frog
-        - entity/frog/warm_frog
         - entity/hoglin/hoglin
         - entity/breeze/breeze
         - entity/breeze/breeze_eyes
         - entity/breeze/breeze_wind
-        - entity/armadillo
-        - entity/beacon_beam
-        - entity/enchanting_table_book
-        - entity/end_portal
-        - entity/endermite
-        - entity/experience_orb
-        - entity/guardian
-        - entity/guardian_beam
-        - entity/guardian_elder
-        - entity/witch
-        - entity/wandering_trader
-        - entity/trident_riptide
-        - entity/snow_golem
-        - entity/blaze
-        - entity/minecart
-        - entity/silverfish
         - entity/warden/warden
         - entity/warden/warden_heart
         - entity/warden/warden_pulsating_spots_1
         - entity/warden/warden_pulsating_spots_2
         - entity/warden/warden_bioluminescent_layer
         - entity/tadpole/tadpole
-        - entity/llama/spit
         - entity/shulker/shulker_black
         - entity/shulker/shulker_blue
         - entity/shulker/shulker_brown
@@ -363,12 +337,6 @@ java:
         - entity/skeleton/stray_overlay
         - entity/illager/evoker
         - entity/illager/ravager
-        - entity/rabbit/brown
-        - entity/rabbit/gold
-        - entity/rabbit/salt
-        - entity/rabbit/toast
-        - entity/rabbit/white
-        - entity/rabbit/white_splotched
         - entity/parrot/parrot_blue
         - entity/parrot/parrot_green
         - entity/parrot/parrot_grey
@@ -445,7 +413,6 @@ java:
         - item/rib_armor_trim_smithing_template
         - item/resin_clump
         - item/resin_brick
-        - entity/iron_golem/iron_golem
         - entity/rabbit/rabbit_black
         - entity/rabbit/rabbit_black_baby
         - entity/rabbit/rabbit_brown
@@ -490,7 +457,6 @@ java:
         - entity/panda/panda_aggressive
         - entity/cat/ocelot_baby
         - entity/cat/ocelot
-        - entity/dolphin/dolphin_baby
         - entity/squid/squid_baby
         - entity/axolotl/axolotl_blue_baby
         - entity/axolotl/axolotl_cyan_baby
@@ -550,7 +516,6 @@ java:
         - particle/shriek
         - particle/infested
         - block/golden_dandelion
-        - entity/armadillo/armadillo_baby
         - entity/bee/bee_angry_baby
         - entity/bee/bee_angry_nectar_baby
         - entity/bee/bee_baby
@@ -565,6 +530,15 @@ java:
         - entity/llama/llama_creamy_baby
         - entity/llama/llama_gray_baby
         - entity/llama/llama_white_baby
+        - entity/armadillo/armadillo_baby
+        - entity/dolphin/dolphin_baby
+        - entity/goat/goat
+        - entity/allay/allay
+        - entity/axolotl/axolotl_wild
+        - entity/axolotl/axolotl_blue
+        - entity/axolotl/axolotl_cyan
+        - entity/axolotl/axolotl_gold
+        - entity/axolotl/axolotl_lucy
     transformed-paths:
         - block/copper_chain
         - entity/conduit/base
@@ -593,7 +567,6 @@ java:
         - entity/chest/trapped
         - entity/chest/trapped_left
         - entity/chest/trapped_right
-        - entity/dolphin
         - painting/alban
         - painting/aztec
         - painting/aztec2
@@ -1329,6 +1302,9 @@ bedrock:
         - entity/zombie_villager/zombie_smith
         - entity/zombie_villager/zombie_villager
         - entity/horse2/horse_markings_none
+        - entity/saddle
+        - items/banner_pattern
+        - items/boat
     matching-paths:
         - blocks/acacia_shelf
         - blocks/bamboo_block
@@ -1550,29 +1526,10 @@ bedrock:
         - entity/fish/tropical_b_pattern_4
         - entity/fish/tropical_b_pattern_5
         - entity/fish/tropical_b_pattern_6
-        - entity/frog/cold_frog
-        - entity/frog/temperate_frog
-        - entity/frog/warm_frog
         - entity/hoglin/hoglin
         - entity/breeze/breeze
         - entity/breeze/breeze_eyes
         - entity/breeze/breeze_wind
-        - entity/armadillo
-        - entity/beacon_beam
-        - entity/enchanting_table_book
-        - entity/end_portal
-        - entity/endermite
-        - entity/experience_orb
-        - entity/guardian
-        - entity/guardian_beam
-        - entity/guardian_elder
-        - entity/witch
-        - entity/wandering_trader
-        - entity/trident_riptide
-        - entity/snow_golem
-        - entity/blaze
-        - entity/minecart
-        - entity/silverfish
         - entity/warden/warden
         - entity/warden/warden_heart
         - entity/warden/warden_pulsating_spots_1
@@ -1744,7 +1701,6 @@ bedrock:
         - items/rib_armor_trim_smithing_template
         - items/resin_clump
         - items/resin_brick
-        - entity/iron_golem/iron_golem
         - entity/rabbit/rabbit_black
         - entity/rabbit/rabbit_black_baby
         - entity/rabbit/rabbit_brown
@@ -1789,7 +1745,6 @@ bedrock:
         - entity/panda/panda_brown
         - entity/cat/ocelot_baby
         - entity/cat/ocelot
-        - entity/dolphin/dolphin_baby
         - entity/squid/squid_baby
         - entity/axolotl/axolotl_blue_baby
         - entity/axolotl/axolotl_cyan_baby
@@ -1849,7 +1804,6 @@ bedrock:
         - particle/shriek
         - particle/infested
         - blocks/golden_dandelion
-        - entity/armadillo/armadillo_baby
         - entity/bee/bee_angry_baby
         - entity/bee/bee_angry_nectar_baby
         - entity/bee/bee_baby
@@ -1864,6 +1818,15 @@ bedrock:
         - entity/llama/llama_creamy_baby
         - entity/llama/llama_gray_baby
         - entity/llama/llama_white_baby
+        - entity/armadillo/armadillo_baby
+        - entity/dolphin/dolphin_baby
+        - entity/goat/goat
+        - entity/allay/allay
+        - entity/axolotl/axolotl_blue
+        - entity/axolotl/axolotl_cyan
+        - entity/axolotl/axolotl_gold
+        - entity/axolotl/axolotl_lucy
+        - entity/axolotl/axolotl_wild
     transformed-paths:
         - blocks/chest_front
         - blocks/chest_side

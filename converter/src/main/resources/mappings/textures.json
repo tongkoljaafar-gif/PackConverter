@@ -927,17 +927,8 @@
         "grass": "grass"
     },
     "entity": {
-        "allay": {
-            "allay": "allay"
-        },
+        "armadillo/armadillo": "armadillo",
         "armorstand/armorstand": "armor_stand",
-        "axolotl": {
-            "axolotl_blue": "axolotl_blue",
-            "axolotl_cyan": "axolotl_cyan",
-            "axolotl_gold": "axolotl_gold",
-            "axolotl_lucy": "axolotl_lucy",
-            "axolotl_wild": "axolotl_wild"
-        },
         "banner": {
             "border": "banner_border",
             "bricks": "banner_bricks",
@@ -949,10 +940,12 @@
             "diagonal_right": "banner_diagonal_right",
             "diagonal_up_left": "banner_diagonal_up_left",
             "diagonal_up_right": "banner_diagonal_up_right",
+            "flow": "banner_flow",
             "flower": "banner_flower",
             "globe": "banner_globe",
             "gradient": "banner_gradient",
             "gradient_up": "banner_gradient_up",
+            "guster": "banner_guster",
             "half_horizontal": "banner_half_horizontal",
             "half_horizontal_bottom": "banner_half_horizontal_bottom",
             "half_vertical": "banner_half_vertical",
@@ -980,7 +973,8 @@
             "triangles_bottom": "banner_triangles_bottom",
             "triangles_top": "banner_triangles_top"
         },
-        "bat": "bat_v2",
+        "bat/bat": "bat_v2",
+        "beacon/beacon_beam": "beacon_beam",
         "bear/polarbear": [
             "polar_bear",
             "polarbear"
@@ -1013,6 +1007,7 @@
         "bell": {
             "bell_body": "bell"
         },
+        "blaze/blaze": "blaze",
         "boat": {
             "acacia": "boat_acacia",
             "bamboo": "bamboo_raft",
@@ -1081,9 +1076,12 @@
             "creeper/creeper",
             "skulls/creeper"
         ],
+        "enchantment/enchanting_table_book": "enchanting_table_book",
         "end_crystal/end_crystal": "endercrystal/endercrystal",
         "end_crystal/end_crystal_beam": "endercrystal/endercrystal_beam",
+        "end_portal/end_portal": "end_portal",
         "enderdragon/dragon_eyes": "dragon/dragon_eyes",
+        "endermite/endermite": "endermite",
         "equipment/happy_ghast_body/black_harness": "harness/harness_black",
         "equipment/happy_ghast_body/blue_harness": "harness/harness_blue",
         "equipment/happy_ghast_body/brown_harness": "harness/harness_brown",
@@ -1129,12 +1127,18 @@
         "equipment/nautilus_body/iron": "nautilus/armor/nautilus_armor_iron",
         "equipment/nautilus_body/netherite": "nautilus/armor/nautilus_armor_netherite",
         "equipment/nautilus_saddle/saddle": "nautilus/nautilus_saddle",
+        "experience/experience_orb": "experience_orb",
+        "frog": {
+            "frog_cold": "cold_frog",
+            "frog_temperate": "temperate_frog",
+            "frog_warm": "warm_frog"
+        },
         "ghast/happy_ghast": "happy_ghast/happy_ghast",
         "ghast/happy_ghast_baby": "happy_ghast/ghastling",
         "ghast/happy_ghast_ropes": "happy_ghast/happy_ghast_ropes",
-        "goat": {
-            "goat": "goat"
-        },
+        "guardian/guardian": "guardian",
+        "guardian/guardian_beam": "guardian_beam",
+        "guardian/guardian_elder": "guardian_elder",
         "hoglin/zoglin": "zoglin/zoglin",
         "horse/donkey_baby": "horse2/donkey_baby",
         "horse/horse_black_baby": "horse2/horse_black_baby",
@@ -1162,6 +1166,10 @@
         "illager/vex": "vex/vex",
         "illager/vex_charging": "vex/vex_charging",
         "illager/vindicator": "vindicator",
+        "iron_golem/iron_golem": [
+            "iron_golem/iron_golem",
+            "iron_golem"
+        ],
         "iron_golem": {
             "iron_golem_crackiness_high": "cracked_high",
             "iron_golem_crackiness_low": "cracked_low",
@@ -1170,6 +1178,7 @@
         "llama": {
             "llama_creamy": "llama"
         },
+        "minecart/minecart": "minecart",
         "panda": {
             "panda": "panda",
             "panda_weak": "panda_sneezy"
@@ -1254,6 +1263,7 @@
         "signs/pale_oak": "pale_oak_sign",
         "signs/spruce": "sign_spruce",
         "signs/warped": "sign_warped",
+        "silverfish/silverfish": "silverfish",
         "skeleton": {
             "bogged_overlay": "bogged_clothes"
         },
@@ -1269,12 +1279,14 @@
         "slime": {
             "magmacube": "magmacube_v2"
         },
+        "snow_golem/snow_golem": "snow_golem",
         "squid/glow_squid_baby": "glow_squid/glow_squid_baby",
         "squid/squid": "squid",
         "strider": {
             "strider": "strider",
             "strider_cold": "strider_suffocated"
         },
+        "trident/trident_riptide": "trident_riptide",
         "turtle/turtle": "sea_turtle",
         "turtle": {
             "turtle_baby": "sea_turtle_baby"
@@ -1306,6 +1318,8 @@
         "villager/type/swamp": "villager2/biomes/biome_swamp",
         "villager/type/taiga": "villager2/biomes/biome_taiga",
         "villager/villager": "villager2/villager",
+        "wandering_trader/wandering_trader": "wandering_trader",
+        "witch/witch": "witch",
         "wither/wither": "wither_boss/wither",
         "wither/wither_armor": "wither_boss/wither_armor_white",
         "wither/wither_invulnerable": "wither_boss/wither_invulnerable",
