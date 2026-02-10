@@ -3029,6 +3029,43 @@ java:
         - mob/baby_nautilus/hurt2
         - mob/baby_nautilus/hurt1
         - mob/horse/zombie/angry
+        - mob/nautilus/ambient_land1
+        - mob/nautilus/ambient_land2
+        - mob/nautilus/ambient_land3
+        - mob/nautilus/ambient_land4
+        - mob/nautilus/ambient_land5
+        - mob/nautilus/ambient_land6
+        - mob/nautilus/ambient_land7
+        - mob/nautilus/hurt_land1
+        - mob/nautilus/hurt_land2
+        - mob/nautilus/hurt_land3
+        - mob/nautilus/hurt_land4
+        - mob/nautilus/death_land
+        - mob/nautilus/swim1
+        - mob/nautilus/swim2
+        - mob/nautilus/swim3
+        - mob/nautilus/swim4
+        - mob/nautilus/swim5
+        - mob/nautilus/swim6
+        - mob/nautilus/swim7
+        - mob/nautilus/swim8
+        - mob/nautilus/swim9
+        - mob/nautilus/nautilus_saddle_underwater_equip
+        - mob/zombie_nautilus/ambient_land1
+        - mob/zombie_nautilus/ambient_land2
+        - mob/zombie_nautilus/ambient_land3
+        - mob/zombie_nautilus/ambient_land4
+        - mob/zombie_nautilus/ambient_land5
+        - mob/zombie_nautilus/ambient_land6
+        - mob/baby_nautilus/hurt_land2
+        - mob/baby_nautilus/hurt_land4
+        - mob/baby_nautilus/ambient_land2
+        - mob/baby_nautilus/ambient_land4
+        - mob/baby_nautilus/ambient_land3
+        - mob/baby_nautilus/hurt_land1
+        - mob/baby_nautilus/death_land
+        - mob/baby_nautilus/hurt_land3
+        - mob/baby_nautilus/ambient_land1
     transformed-paths: []
     relative-path: sounds
 bedrock:
@@ -6060,5 +6097,42 @@ bedrock:
         - mob/baby_nautilus/hurt2
         - mob/baby_nautilus/hurt1
         - mob/horse/zombie/angry
+        - mob/nautilus/ambient_land1
+        - mob/nautilus/ambient_land2
+        - mob/nautilus/ambient_land3
+        - mob/nautilus/ambient_land4
+        - mob/nautilus/ambient_land5
+        - mob/nautilus/ambient_land6
+        - mob/nautilus/ambient_land7
+        - mob/nautilus/hurt_land1
+        - mob/nautilus/hurt_land2
+        - mob/nautilus/hurt_land3
+        - mob/nautilus/hurt_land4
+        - mob/nautilus/death_land
+        - mob/nautilus/swim1
+        - mob/nautilus/swim2
+        - mob/nautilus/swim3
+        - mob/nautilus/swim4
+        - mob/nautilus/swim5
+        - mob/nautilus/swim6
+        - mob/nautilus/swim7
+        - mob/nautilus/swim8
+        - mob/nautilus/swim9
+        - mob/nautilus/nautilus_saddle_underwater_equip
+        - mob/zombie_nautilus/ambient_land1
+        - mob/zombie_nautilus/ambient_land2
+        - mob/zombie_nautilus/ambient_land3
+        - mob/zombie_nautilus/ambient_land4
+        - mob/zombie_nautilus/ambient_land5
+        - mob/zombie_nautilus/ambient_land6
+        - mob/baby_nautilus/ambient_land1
+        - mob/baby_nautilus/ambient_land2
+        - mob/baby_nautilus/ambient_land3
+        - mob/baby_nautilus/ambient_land4
+        - mob/baby_nautilus/death_land
+        - mob/baby_nautilus/hurt_land1
+        - mob/baby_nautilus/hurt_land2
+        - mob/baby_nautilus/hurt_land3
+        - mob/baby_nautilus/hurt_land4
     transformed-paths: []
     relative-path: sounds
