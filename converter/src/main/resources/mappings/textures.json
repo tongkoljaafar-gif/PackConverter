@@ -1187,7 +1187,8 @@
             "pig_temperate": "pig_v3"
         },
         "piglin": {
-            "zombified_piglin": "zombie_piglin"
+            "zombified_piglin": "zombie_piglin",
+            "zombified_piglin_baby": "zombie_piglin_baby"
         },
         "player/slim/alex": "alex",
         "player/wide/steve": "steve",
@@ -1291,6 +1292,13 @@
         "turtle": {
             "turtle_baby": "sea_turtle_baby"
         },
+        "villager/baby/desert": "villager2/biomes/biome_desert_baby",
+        "villager/baby/jungle": "villager2/biomes/biome_jungle_baby",
+        "villager/baby/plains": "villager2/biomes/biome_plains_baby",
+        "villager/baby/savanna": "villager2/biomes/biome_savanna_baby",
+        "villager/baby/snow": "villager2/biomes/biome_snow_baby",
+        "villager/baby/swamp": "villager2/biomes/biome_swamp_baby",
+        "villager/baby/taiga": "villager2/biomes/biome_taiga_baby",
         "villager/profession/armorer": "villager2/professions/armorer",
         "villager/profession/butcher": "villager2/professions/butcher",
         "villager/profession/cartographer": "villager2/professions/cartographer",
@@ -1318,11 +1326,19 @@
         "villager/type/swamp": "villager2/biomes/biome_swamp",
         "villager/type/taiga": "villager2/biomes/biome_taiga",
         "villager/villager": "villager2/villager",
+        "villager/villager_baby": "villager2/villager_baby",
         "wandering_trader/wandering_trader": "wandering_trader",
         "witch/witch": "witch",
         "wither/wither": "wither_boss/wither",
         "wither/wither_armor": "wither_boss/wither_armor_white",
         "wither/wither_invulnerable": "wither_boss/wither_invulnerable",
+        "zombie_villager/baby/desert": "zombie_villager2/biomes/biome_desert_baby",
+        "zombie_villager/baby/jungle": "zombie_villager2/biomes/biome_jungle_baby",
+        "zombie_villager/baby/plains": "zombie_villager2/biomes/biome_plains_baby",
+        "zombie_villager/baby/savanna": "zombie_villager2/biomes/biome_savanna_baby",
+        "zombie_villager/baby/snow": "zombie_villager2/biomes/biome_snow_baby",
+        "zombie_villager/baby/swamp": "zombie_villager2/biomes/biome_swamp_baby",
+        "zombie_villager/baby/taiga": "zombie_villager2/biomes/biome_taiga_baby",
         "zombie_villager/profession/armorer": "zombie_villager2/professions/armorer",
         "zombie_villager/profession/butcher": "zombie_villager2/professions/butcher",
         "zombie_villager/profession/cartographer": "zombie_villager2/professions/cartographer",
@@ -1344,7 +1360,8 @@
         "zombie_villager/type/snow": "zombie_villager2/biomes/biome-snow-zombie",
         "zombie_villager/type/swamp": "zombie_villager2/biomes/biome-swamp-zombie",
         "zombie_villager/type/taiga": "zombie_villager2/biomes/biome-taiga-zombie",
-        "zombie_villager/zombie_villager": "zombie_villager2/zombie-villager"
+        "zombie_villager/zombie_villager": "zombie_villager2/zombie-villager",
+        "zombie_villager/zombie_villager_baby": "zombie_villager2/zombie-villager_baby"
     },
     "entity/conduit/cage": "block/conduit_cage",
     "entity/conduit/wind": "block/conduit_wind_horizontal",
@@ -1382,6 +1399,13 @@
     "entity/equipment/humanoid/iron": "models/armor/iron_1",
     "entity/equipment/humanoid/netherite": "models/armor/netherite_1",
     "entity/equipment/humanoid/turtle_scute": "models/armor/turtle_1",
+    "entity/equipment/humanoid_baby/chainmail": "models/armor/chainmail_baby",
+    "entity/equipment/humanoid_baby/copper": "models/armor/copper_baby",
+    "entity/equipment/humanoid_baby/diamond": "models/armor/diamond_baby",
+    "entity/equipment/humanoid_baby/gold": "models/armor/gold_baby",
+    "entity/equipment/humanoid_baby/iron": "models/armor/iron_baby",
+    "entity/equipment/humanoid_baby/netherite": "models/armor/netherite_baby",
+    "entity/equipment/humanoid_baby/turtle_scute": "models/armor/turtle_scute_baby",
     "entity/equipment/humanoid_leggings/chainmail": "models/armor/chain_2",
     "entity/equipment/humanoid_leggings/copper": "models/armor/copper_2",
     "entity/equipment/humanoid_leggings/diamond": "models/armor/diamond_2",

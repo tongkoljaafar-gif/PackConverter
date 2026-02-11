@@ -30,6 +30,11 @@ java:
         - entity/bee/bee_stinger
         - item/pointed_dripstone
         - effect/dither
+        - entity/zombie_villager/profession_level/diamond
+        - entity/zombie_villager/profession_level/emerald
+        - entity/zombie_villager/profession_level/gold
+        - entity/zombie_villager/profession_level/iron
+        - entity/zombie_villager/profession_level/stone
     matching-paths:
         - block/acacia_shelf
         - block/bamboo_block
@@ -539,6 +544,9 @@ java:
         - entity/axolotl/axolotl_cyan
         - entity/axolotl/axolotl_gold
         - entity/axolotl/axolotl_lucy
+        - entity/zombie/husk_baby
+        - entity/zombie/zombie_baby
+        - entity/piglin/piglin_baby
     transformed-paths:
         - block/copper_chain
         - entity/conduit/base
@@ -1827,6 +1835,9 @@ bedrock:
         - entity/axolotl/axolotl_gold
         - entity/axolotl/axolotl_lucy
         - entity/axolotl/axolotl_wild
+        - entity/zombie/husk_baby
+        - entity/zombie/zombie_baby
+        - entity/piglin/piglin_baby
     transformed-paths:
         - blocks/chest_front
         - blocks/chest_side
