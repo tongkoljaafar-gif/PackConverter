@@ -138,12 +138,16 @@ public class ThunderGUI extends JFrame {
                         convertButton.setEnabled(true);
                         if (debugCheckbox != null) debugCheckbox.setEnabled(true);
                         this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
-                    } catch (IOException e) {
-                        throw new RuntimeException(e);
+                    } catch (Exception e) {
+                        logListener.error("Error converting.", e);
+                        converting.set(false);
+                        convertButton.setEnabled(true);
+                        if (debugCheckbox != null) debugCheckbox.setEnabled(true);
+                        this.setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
                     }
                 }).start();
             } catch (Exception e) {
-                e.printStackTrace();
+                logListener.error("Error converting.", e);
                 converting.set(false);
                 convertButton.setEnabled(true);
                 if (debugCheckbox != null) debugCheckbox.setEnabled(true);
@@ -207,6 +211,7 @@ public class ThunderGUI extends JFrame {
         });
         this.add(javaPackButton);
 
+        this.setLocationRelativeTo(null);
         this.setVisible(true);
     }
 }

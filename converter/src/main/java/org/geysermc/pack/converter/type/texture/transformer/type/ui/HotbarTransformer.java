@@ -88,7 +88,7 @@ public class HotbarTransformer implements TextureTransformer {
 
         BufferedImage javaHotbarSelectionImage = readImage(javaHotbarSelectionTexture);
 
-        int selectionScale = javaHotbarSelectionImage.getWidth() / 24;
+        float selectionScale = javaHotbarSelectionImage.getWidth() / 24f;
 
         int size = javaHotbarSelectionImage.getWidth();
 
@@ -98,7 +98,7 @@ public class HotbarTransformer implements TextureTransformer {
 
         g.drawImage(javaHotbarSelectionImage, 0, 0, null);
 
-        g.drawImage(ImageUtil.flip(ImageUtil.crop(javaHotbarSelectionImage, 0, 0, size, selectionScale), false, true), 0, size - selectionScale, null);
+        g.drawImage(ImageUtil.flip(ImageUtil.crop(javaHotbarSelectionImage, 0, 0, size, selectionScale), false, true), 0, (int) (size - selectionScale), null);
 
         context.offer(KeyUtil.key(Key.MINECRAFT_NAMESPACE, "ui/selected_hotbar_slot.png"), bedrockHotbarSelection, "png");
     }

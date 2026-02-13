@@ -42,11 +42,8 @@ public class BootstrapLogListener extends DefaultLogListener {
     }
 
     @Override
-    public void debug(@NotNull String message) {
-        if (gui.debugMode.get()) {
-            appendText("DEBUG: " + message);
-        }
-
+    public void debugUnchecked(@NotNull String message) {
+        appendText("DEBUG: " + message);
         super.debug(message);
     }
 
@@ -80,6 +77,11 @@ public class BootstrapLogListener extends DefaultLogListener {
             appendText(writer.toString());
         }
         super.error(message, exception);
+    }
+
+    @Override
+    public boolean isDebugEnabled() {
+        return gui.debugMode.get();
     }
 
     private void appendText(String text) {

@@ -30,13 +30,9 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public class DefaultLogListener implements LogListener {
-    private static final boolean DEBUG_ENABLED = Boolean.getBoolean("PackConverter.Debug");
-
     @Override
-    public void debug(@NotNull String message) {
-        if (DEBUG_ENABLED) {
-            System.out.println("[DEBUG] " + message);
-        }
+    public void debugUnchecked(@NotNull String message) {
+        System.out.println("[DEBUG] " + message);
     }
 
     @Override

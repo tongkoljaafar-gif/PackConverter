@@ -42,7 +42,7 @@ public class SplashTextConverter implements AssetConverter<Writable, JsonElement
     public JsonElement convert(Writable writable, ConversionContext context) throws Exception {
         String[] splashes = writable.toUTF8String().split("\n");
         JsonArray splashesArray = new JsonArray();
-        Arrays.stream(splashes).toList().forEach(splashesArray::add);
+        Arrays.stream(splashes).forEach(splashesArray::add);
         JsonObject object = new JsonObject();
         object.add("splashes", splashesArray);
         return object;

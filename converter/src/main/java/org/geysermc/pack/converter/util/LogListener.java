@@ -30,7 +30,12 @@ import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;
 
 public interface LogListener {
-    void debug(@NotNull String message);
+    default void debug(@NotNull String message) {
+        if (!isDebugEnabled()) return;
+        debugUnchecked(message);
+    }
+
+    void debugUnchecked(@NotNull String message);
 
     void info(@NotNull String message);
 
@@ -39,4 +44,8 @@ public interface LogListener {
     void error(@NotNull String message);
 
     void error(@NotNull String message, @Nullable Throwable exception);
+
+    default boolean isDebugEnabled() {
+        return Boolean.getBoolean("PackConverter.LogDebugMessages");
+    }
 }
